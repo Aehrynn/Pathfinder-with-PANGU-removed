@@ -172,8 +172,8 @@ echo Compilation successful if no errors listed above.
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="astar.cpp" />
-    <ClCompile Include="DEM.cpp" />
-    <ClCompile Include="DEMarrays.cpp" />
+    <ClCompile Include="DEM\source\DEM.cpp" />
+    <ClCompile Include="DEM\source\DEMarrays.cpp" />
     <ClCompile Include="hazardMap.cpp" />
     <ClCompile Include="pathfinder.cpp">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -190,8 +190,8 @@ echo Compilation successful if no errors listed above.
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="astar.h" />
-    <ClInclude Include="DEM.h" />
-    <ClInclude Include="DEMarrays.h" />
+    <ClInclude Include="DEM\headers\DEM.h" />
+    <ClInclude Include="DEM\headers\DEMarrays.h" />
     <ClInclude Include="hazardMap.h" />
     <ClInclude Include="pan_protocol_lib.h" />
     <ClInclude Include="pan_socket_io.h" />

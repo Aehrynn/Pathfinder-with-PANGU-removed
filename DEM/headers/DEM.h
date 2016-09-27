@@ -1,5 +1,5 @@
 #pragma once
-#include "ppm.h"
+#include "..\..\ppm.h"
 #include "DEMarrays.h"
 #include <GL\glut.h>
 

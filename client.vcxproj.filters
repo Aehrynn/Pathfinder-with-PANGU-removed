@@ -13,56 +13,62 @@
       <UniqueIdentifier>{0143a428-580a-4c7c-8d71-0a344ed20e1e}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
+    <Filter Include="Source Files\DEM">
+      <UniqueIdentifier>{03c73ff5-9402-4178-8085-ea4e6e9a191b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Queues">
+      <UniqueIdentifier>{25eb3dc3-7007-49e8-907d-8ef64cf88e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Map">
+      <UniqueIdentifier>{38712976-11dc-491f-b73b-18f054b7cbc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Algorithm">
+      <UniqueIdentifier>{e8cc321e-e53a-4f1c-8382-1e42a032ac59}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="astar.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DEM.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DEMarrays.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="hazardMap.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="pathfinder.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="pathlist.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ppm.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ppmreader.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="qoqueue.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="qqnode.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="queue.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="queueNode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="rover.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="qoqueue.cpp">
+      <Filter>Source Files\Queues</Filter>
+    </ClCompile>
+    <ClCompile Include="qqnode.cpp">
+      <Filter>Source Files\Queues</Filter>
+    </ClCompile>
+    <ClCompile Include="queue.cpp">
+      <Filter>Source Files\Queues</Filter>
+    </ClCompile>
+    <ClCompile Include="queueNode.cpp">
+      <Filter>Source Files\Queues</Filter>
+    </ClCompile>
+    <ClCompile Include="hazardMap.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="astar.cpp">
+      <Filter>Source Files\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="pathlist.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="ppm.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="ppmreader.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="DEM\source\DEM.cpp">
+      <Filter>Source Files\DEM</Filter>
+    </ClCompile>
+    <ClCompile Include="DEM\source\DEMarrays.cpp">
+      <Filter>Source Files\DEM</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="astar.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DEM.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DEMarrays.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="hazardMap.h">
@@ -105,6 +111,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="socket_stuff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DEM\headers\DEM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DEM\headers\DEMarrays.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

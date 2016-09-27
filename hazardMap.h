@@ -1,9 +1,9 @@
 #pragma once
 #include <iostream>
 #include "ppm.h"
-#include "DEMarrays.h"
+#include "DEM\headers\DEM.h"
 #include <GL\glut.h>
-#include "DEM.h"
+#include "DEM\headers\DEM.h"
 
 using namespace std;
 

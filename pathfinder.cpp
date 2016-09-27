@@ -41,13 +41,13 @@
 #include <stdio.h>
 #include <math.h>
 
-#include "DEM.h"
+#include "DEM\headers\DEM.h"
 #include "hazardMap.h"
 #include <cstdlib> 
 #include <ctime> 
 #include <iostream>
 #include "socket_stuff.h"
-#include "DEMarrays.h"
+#include "DEM\headers\DEM.h"
 #include "ppm.h"
 #include "ppmreader.h"
 #include "rover.h"

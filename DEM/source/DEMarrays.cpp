@@ -1,5 +1,5 @@
 
-#include "DEMarrays.h"
+#include "..\headers\DEMarrays.h"
 #include <GL\glut.h>
 
 

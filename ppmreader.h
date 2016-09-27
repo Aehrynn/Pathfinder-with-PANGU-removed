@@ -3,7 +3,7 @@
 #include <iostream>
 #include <fstream>
 
-#include "DEMarrays.h"
+#include "DEM\headers\DEMarrays.h"
 #include "ppm.h"
 //#include <GL\glut.h>
 
