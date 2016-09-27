@@ -24,6 +24,7 @@
  *	 created by the University of Dundee.
  *
  *	30th July 2008 - Included deletion of arrays into the arrays class to limit duplication of deleting multi-dimensional arrays
+ *	27th September 2016 - Updated to Github
  *
  * Future work:
  *   ability to choose environment to work in
